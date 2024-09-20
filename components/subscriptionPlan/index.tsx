@@ -29,8 +29,8 @@ const SubscriptionPlan = ({ isMore, count }: any) => {
         <div className={cls.desc}>
           Start free and fell in love in our pro features
         </div>
-     <div className={cls.optionItems}>
-  {data?.data?.length > 0 ? (
+ <div className={cls.optionItems}>
+  {Array.isArray(data?.data) && data?.data.length > 0 ? (
     data.data.slice(0, count).map((item, key) => (
       <OptionItem
         key={key}
@@ -40,9 +40,10 @@ const SubscriptionPlan = ({ isMore, count }: any) => {
       />
     ))
   ) : (
-    <p>No hay elementos disponibles</p> // Puedes mostrar un mensaje o manejar el estado vacío
+    <p>No hay elementos disponibles</p>
   )}
 </div>
+
 
       </div>
       <HandleSubscriptionModal
