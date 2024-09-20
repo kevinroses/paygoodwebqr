@@ -19,15 +19,15 @@ const SubscriptionPlan = ({ isMore, count }: any) => {
     <div className="welcome-container">
       <div className={cls.subscriptionBox}>
         <div className={cls.flex}>
-          <div className={cls.title}>Choose your plan</div>
+          <div className={cls.title}>Elige tu plan</div>
           {isMore && (
             <Link href="/subscription-plans">
-              <div className={cls.moreBtn}>Show more</div>
+              <div className={cls.moreBtn}>Ver más</div>
             </Link>
           )}
         </div>
         <div className={cls.desc}>
-          Start free and fell in love in our pro features
+          Comienza gratis y enamórate de nuestras funciones profesionales.
         </div>
 <div className={cls.optionItems}>
   {data?.data && Array.isArray(data.data) && data.data.length > 0 ? (
