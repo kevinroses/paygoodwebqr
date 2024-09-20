@@ -147,7 +147,7 @@ button {
 }
 
 img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 input:-webkit-autofill,
