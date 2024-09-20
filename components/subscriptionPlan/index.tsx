@@ -29,16 +29,7 @@ const SubscriptionPlan = ({ isMore, count }: any) => {
         <div className={cls.desc}>
           Start free and fell in love in our pro features
         </div>
-        <div className={cls.optionItems}>
-          {data?.data.slice(0, count).map((item, key) => (
-            <OptionItem
-              key={key}
-              item={item}
-              setId={setId}
-              handleOpenWaitingModal={handleOpenWaitingModal}
-            />
-          ))}
-        </div>
+       
       </div>
       <HandleSubscriptionModal
         id={id}
