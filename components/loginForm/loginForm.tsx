@@ -135,16 +135,7 @@ export default function LoginForm({}: Props) {
           {t("login")}
         </PrimaryButton>
       </div>
-      <div className={cls.userInfo}>
-     
-        <button
-          onClick={() => handleCopy(defaultUser.login, defaultUser.password)}
-          type={"button"}
-          className={cls.copy}
-        >
-          {t("copy")}
-        </button>
-      </div>
+    
     </form>
   );
 }
