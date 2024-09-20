@@ -10,10 +10,11 @@ const WelcomeReservation = () => {
         </div>
         <div className={cls.right}>
           <div className={cls.top}>
-            <div className={cls.label}>Advantages</div>
+            <div className={cls.label}>Ventajas</div>
             <div className={cls.title}>
-              Online <br />
-              table reservation
+             reserva de mesa <br />
+              En línea
+              
             </div>
             <div className={cls.icon}>
               <img src="/images/logo.svg" alt="" />
@@ -21,10 +22,10 @@ const WelcomeReservation = () => {
           </div>
           <div className={cls.bottom}>
             <div className={cls.bottomTitle}>
-              Find your table for any occasion
+             Encuentra tu mesa para cualquier ocasión
             </div>
             <Link className={cls.bottomBtn} href="/reservations">
-              Explore more
+           Explora más
             </Link>
           </div>
         </div>
