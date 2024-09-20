@@ -22,12 +22,12 @@ const ColorlibConnector = styled(StepConnector)(({ theme }) => ({
   },
   [`&.${stepConnectorClasses.active}`]: {
     [`& .${stepConnectorClasses.line}`]: {
-      backgroundColor: "#83EA00",
+      backgroundColor: "#005cdd",
     },
   },
   [`&.${stepConnectorClasses.completed}`]: {
     [`& .${stepConnectorClasses.line}`]: {
-      backgroundColor: "#83EA00",
+      backgroundColor: "#005cdd",
     },
   },
   [`& .${stepConnectorClasses.line}`]: {
