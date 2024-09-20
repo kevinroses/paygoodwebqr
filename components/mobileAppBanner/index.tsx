@@ -20,36 +20,36 @@ const MobileAppBanner = () => {
               />
             </svg>
           </div>
-          <div className={cls.title}>Download the mobile app</div>
+          <div className={cls.title}>Descarga la aplicación móvil</div>
         </div>
         <div className={cls.right}>
           <div className={cls.title}>
-            Enjoy exclusive content on our app, including personalized product
+            Disfrute de contenido exclusivo en nuestra aplicación, incluido producto personalizado
           </div>
           <div className={cls.storeLinks}>
             <a
-              href="https://testflight.apple.com/join/ISsNaxPN"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/images/app-store.png" alt="" />
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=org.foodyman.qr"
+              href="https://play.google.com/store/apps/details?id=paygood.saas.pos"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/images/google-play.svg" alt="" />
             </a>
             <a
-              href="https://testflight.apple.com/join/ISsNaxPN"
+              href="https://play.google.com/store/apps/details?id=paygood.saas.pos"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="/images/pos.png" alt="" />
             </a>
             <a
-              href="https://testflight.apple.com/join/ISsNaxPN"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
