@@ -19,15 +19,12 @@ export default function WelcomeHero() {
             </div>
             <div className={cls.heroContent}>
               <div className={cls.title}>
-                Contact-less <br /> QR Menu
+                Servicio de <br /> QR Menu
               </div>
               <div className={cls.desc}>
-                Make a QR code menu for your restaurant, bar or cafeso customers
-                can enjoy a contactless dining experience.
+                Crea un menú con código QR para tu restaurante, bar o cafetería, permitiendo a tus clientes disfrutar de una experiencia de pedido sin contacto.
               </div>
-              <Link href="/be-seller">
-                <div className={cls.submitBtn}>Submit</div>
-              </Link>
+           
             </div>
             <div className={cls.heroMedia}>
               <img className={cls.heroMediaItem1} src="/images/scan-qr-1.png" />
