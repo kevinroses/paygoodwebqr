@@ -14,11 +14,7 @@ const OptionItem = ({ item, setId, handleOpenWaitingModal }: any) => {
       <div className={cls.price}>
         <Price number={item.price} />
       </div>
-      <ul className={cls.option}>
-        {item.subscriptionOptions.map((item: any, key: any) => (
-          <li key={key}>{item?.translation?.title}</li>
-        ))}
-      </ul>
+     
       <div
         className={cls.optionBtn}
         onClick={() => {
